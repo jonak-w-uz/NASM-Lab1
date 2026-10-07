@@ -15,4 +15,12 @@ _start:
 
     mov rax, 34
     xor rdi, rdi
+
+    mov rdx, rax
+    mov rcx, 5
+    add rcx, 2
+    sub rdx, rcx
+
+    mov rax, 60
+    mov rdi, 1
     syscall
